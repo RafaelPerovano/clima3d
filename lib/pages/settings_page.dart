@@ -10,10 +10,7 @@ class SettingsPage extends StatelessWidget {
       appBar: AppBar(title: const Text("Configurações")),
       drawer: const AppDrawer(),
       body: const Center(
-        child: Text(
-          "Configurações futuras aqui",
-          style: TextStyle(fontSize: 20),
-        ),
+        child: Text("Configurações", style: TextStyle(fontSize: 20)),
       ),
     );
   }

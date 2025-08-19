@@ -12,7 +12,7 @@ class ReportPage extends StatelessWidget {
       drawer: const AppDrawer(),
       body: const Center(
         child: Text(
-          "Aqui vai o histórico de temperatura e umidade",
+          "Relátórios",
           style: TextStyle(fontSize: 20),
         ),
       ),
