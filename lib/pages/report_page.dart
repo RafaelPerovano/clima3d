@@ -11,10 +11,7 @@ class ReportPage extends StatelessWidget {
       appBar: AppBar(title: const Text("Relatórios")),
       drawer: const AppDrawer(),
       body: const Center(
-        child: Text(
-          "Relátórios",
-          style: TextStyle(fontSize: 20),
-        ),
+        child: Text("Relatórios", style: TextStyle(fontSize: 20)),
       ),
     );
   }
